@@ -4,7 +4,7 @@ $line-height-base: 1.5 !default;
 
 $white: #fff !default;
 $gray-light: #f8f9fa !default;
-$gray: #6c757d !default;
+$gray: #efeff3 !default;
 $gray-dark: #343a40 !default;
 $black: #000 !default;
 
@@ -15,3 +15,4 @@ $link-color: $gray-dark !default;
 $link-hover-color: lighten($link-color, 15%) !default;
 
 $image-size: 100px;
+$resume-margin: 30px;

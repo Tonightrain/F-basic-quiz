@@ -8,23 +8,25 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Resume</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
   <body>
     <script src="src/app.js"></script>
     <div class="container">
       <header class="header">
-        <img src="" alt="person-photo" />
+        <img id="photo" src="" alt="person-photo" />
         <h1>HELLO,</h1>
-        <h2>MY NAME IS AND THIS IS MY RESUME</h2>
+        <h2 id="introduction">MY NAME IS AND THIS IS MY RESUME</h2>
         <hr />
       </header>
       <main class="person-info">
         <section class="about-me">
           <h2>ABOUT ME</h2>
-          <p></p>
+          <p id="aboutMe"></p>
         </section>
-        <section class="education">
+        <section class="educations">
           <h2>EDUCATION</h2>
+          <ul id="education"></ul>
         </section>
       </main>
     </div>

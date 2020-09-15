@@ -1,0 +1,33 @@
+.about-me h2 {
+  @extend .info-style;
+}
+
+.about-me p {
+  margin-left: $resume-margin;
+}
+
+.educations h2 {
+  @extend .info-style;
+}
+
+#education {
+  margin-left: $resume-margin;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#education li {
+  display: flex;
+}
+
+.year {
+  margin-top: -20px;
+}
+
+.contents {
+  background-color: $gray;
+  width: 1100px;
+  margin-left: 100px;
+  line-height: 10px;
+}
