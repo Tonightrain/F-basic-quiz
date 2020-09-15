@@ -1,3 +1,33 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
+@import "extends";
+
+.container {
+  background-color: $white;
+  width: 1300px;
+  height: 600px;
+  margin: 100px auto 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+  border-radius: 100%;
+  width: 100px;
+  margin-top: -50px;
+}
+
+.header hr {
+  width: 95%;
+}
+
+.about-me h2 {
+  @extend .info-style;
+}
+
+.education h2 {
+  @extend .info-style;
+}
