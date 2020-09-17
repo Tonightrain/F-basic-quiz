@@ -10,6 +10,7 @@
   @extend .info-style;
 }
 
+// TODO feedback:不建议使用ID选择器
 #education {
   margin-left: $resume-margin;
   display: flex;
@@ -22,6 +23,7 @@
 }
 
 .year {
+  // TODO feedback:不建议用-margin控制间距
   margin-top: -20px;
 }
 

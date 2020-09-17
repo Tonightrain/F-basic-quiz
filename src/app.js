@@ -2,6 +2,7 @@ import "./style/index.scss";
 import { getPerson, getPersonalEducation } from "./person";
 
 const getEducationInfo = (education) => {
+  // TODO feedback: class命名用-
   return `<li class="educationInfo">
         <div class="year">
           <p>${education.year}</p>
@@ -26,6 +27,7 @@ getPersonalEducation(1).then((data) => {
     // $("#education").append(`<li class="year">${education.year}</li>`);
     // $("#education").append(`<li class="title">${education.title}</li>`);
     // $("#education").append(`<li class="description">${education.description}</li>`);
+    // TODO feedback: 在for循环中，每次都要操作DOM，影响性能，不推荐这样做
     $("#education").append(getEducationInfo(education));
   });
 });

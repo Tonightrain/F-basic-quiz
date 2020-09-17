@@ -12,6 +12,7 @@
 .header img {
   border-radius: 100%;
   width: $image-size;
+  // TODO feedback: margin就是$image-size的一半
   margin-top: -50px;
 }
 
